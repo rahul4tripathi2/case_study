@@ -1,0 +1,168 @@
+Incident ID,Incident Timestamp,Status,Priority,Reported Source,Category,System,Description,Keywords,Problem Description,Solution Description
+INC00001,10-02-2014 22:15,Closed,Medium,,Create a new user.,ECC,Create a new user.,New User,I want to create a new User ID. Hi My name is XYZ. Please help me with the same.,Call BAPI_USER_CREATE/BAPI_USER_CREATE1 with specified parameters
+INC00002,18-05-2014 23:15,Closed,Low,,Reset password,SRM,Reset password,User,Please reset Password for ABC.,Call BAPI_USER_CHANGE
+INC00003,10-03-2014 22:15,Closed,Low,,Change User,CRM,Change User,User,I recently married and my name was updated from Phipps to Hawkesford in CRM/ERP System. It seems to have reverted back to Phipps again now which has messed up the views I have setup. Can you arrange for this to be changed back to Hawkesford please?,Call BAPI_USER_CHANGE
+INC00004,11-02-2014 23:15,Closed,Low,,Reset password,ECC,Reset password,User,User has called in to reset the password for crm/erp systemTried with the forgot password and after entering the security questions its not working She wants to password reset to be done at the earliest.,Call BAPI_USER_CHANGE
+INC00005,10-02-2014 22:15,Closed,Low,,Reset password,CRM,Reset password,User,"Issue: Unable to login to  program Error: Invalid user name & Password. Note: User is able to login to CRM/ERP website, hence escalating this case.",Call BAPI_USER_CHANGE
+INC00006,10-03-2014 22:15,Closed,Low,,Reset password,ECC,Reset password,User,"Hi - please reset my Sandbox password. (BTW, I saw the notice about the refresh end of this week. I'm hoping to do a bit of testing before the refresh. Thanks.) ",Call BAPI_USER_CHANGE
+INC00007,11-02-2014 23:15,Closed,Low,,Reset password,FI,Reset password,User,"Case Number 07466117 I am having significant trouble gaining access to finance system I was sent an email a few days ago confirming my request for access and was told I was sent a temporary password that should give me access, however, I never received this password. Could you please resend this password or somehow provide me access to finance system as I have an opportunity that requires a pricing right now. Thanks in advance. I appreciate the help. ",Call BAPI_USER_CHANGE
+INC00008,18-05-2014 23:15,Closed,Low,,Reset password,ECC,Reset password,User,requested new password/site access. password was reset. now I am receiving a message that I am not a recognized user. ,Call BAPI_USER_CHANGE
+INC00009,10-03-2014 22:15,Closed,Low,,Add privileges,ECC,Add privileges,User,Client is unable to create security information because she is getting  You do not have the level of access necessary to perform the operation requested. Please contact the owner of the record or your administrator  error message.,Call BAPI_USER_CHANGE
+INC00010,18-05-2014 23:15,Closed,Medium,,Create a new user.,Salesforce,Create a new user.,New User,"Please create an account for me to access Salesforce, and share the credentials. Thanks.",Call BAPI_USER_CREATE/BAPI_USER_CREATE1 with specified parameters
+INC00011,11-02-2014 23:15,Closed,Low,,Unlock user,ECC,Unlock user,Unlock User,"Hi, Please note that Mark could not access his ECC account. We tried to reset his password but the error states the user is locked and we should contact the administrator.",Call BAPI_USER_UNLOCK
+INC00012,21-05-2014 20:15,Closed,Low,,Unlock user,ECC,Unlock user,Unlock User,forgot my user name & password to my timecard portal - I might have been locked out since I tried quite few times Thanks Sam,Call BAPI_USER_UNLOCK
+INC00013,18-05-2014 23:15,Closed,Medium,,Create a new user.,ECC,Create a new user.,New User,I need login credentials for Docusign.,Call BAPI_USER_CREATE/BAPI_USER_CREATE1 with specified parameters
+INC00014,11-02-2014 23:15,Closed,Low,,Unlock user,Click,Unlock user,Unlock User,Issue:User called in stating that she is unable to login to Click tools (Calliduscloud)and user is getting an error Account lockout contact your system principal Affected Application:click tools Type of computer : Laptop,Call BAPI_USER_UNLOCK
+INC00015,21-05-2014 20:15,Closed,Medium,,Create a new user.,Salesforce,Create a new user.,New User,Need to access salesforce & hence need credentials for the same. ,Call BAPI_USER_CREATE/BAPI_USER_CREATE1 with specified parameters
+INC00016,10-02-2014 22:15,Closed,Low,,Change User,CRM,Change User,User,Correct profile time zone in MRM,Call BAPI_USER_CHANGE
+INC00017,18-05-2014 23:15,Closed,Medium,,Job Issue,ECC,Job Failure,Job,job AP_AU_TOLAS_INBOUND is running too long ,Restart the Job
+INC00018,10-03-2014 22:15,Closed,Medium,,Job Issue,ECC,Job Failure,Job,AP_AU_TOLAS_INBOUND  job is running too long,Restart the Job
+INC00019,11-02-2014 23:15,Closed,Medium,,Job Issue,ECC,Job Failure,Job,<morning DL>job is taking very long time,Restart the Job
+INC00020,10-02-2014 22:15,Closed,Medium,,Job Issue,ECC,Job Failure,Job,Catalyst - P3//EWP : Job is running for a long tim,Restart the Job
+INC00021,10-03-2014 22:15,Closed,Medium,,Job Issue,ECC,Job Failure,Job,AP_AU_TOLAS_INBOUND | RUNNING LONG,Restart the Job
+INC00022,11-02-2014 23:15,Closed,Medium,,Job Issue,ECC,Job Failure,Job,Job KWIC116UPG did not end properly - datacenter=TI1218  ,Restart the Job
+INC00023,18-05-2014 23:15,Closed,Medium,,Job Issue,ECC,Job Failure,Job,Job EBIINN15AFT did not end properly - datacenter=TI1218 ,Restart the Job
+INC00024,10-03-2014 22:15,Closed,Medium,,Job Issue,ECC,Job Failure,Job,Job RPINS033 did not end properly - datacenter=TI1218   j,Restart the Job
+INC00025,18-05-2014 23:15,Closed,Medium,,Job Issue,ECC,Job Failure,Job,Job RPINS102 did not end properly - datacenter=TI1218   j,Restart the Job
+INC00026,11-02-2014 23:15,Closed,Medium,,Job Issue,ECC,Job Failure,Job,Job EBIINN15AFT did not end properly - datacenter=TI1218 ,Restart the Job
+INC00027,21-05-2014 20:15,Closed,Medium,,iDOC error,ECC,iDOC error,iDOC,iDOC failed,"Programs for restarting the failed idocs:
+Program RBDMANI2 for status 51 
+Program RBDAPP01 for status 64
+Program RBDAGAIE for status 32 and 69(Edited IDocs)
+Program RBDSYNER for status 26
+Program RSEOUT00 for status 30"
+INC00028,18-05-2014 23:15,Closed,Medium,,iDOC error,ECC,iDOC error,iDOC,iDOC posting error,"Programs for restarting the failed idocs:
+Program RBDMANI2 for status 51 
+Program RBDAPP01 for status 64
+Program RBDAGAIE for status 32 and 69(Edited IDocs)
+Program RBDSYNER for status 26
+Program RSEOUT00 for status 30"
+INC00029,11-02-2014 23:15,Closed,Medium,,iDOC error,ECC,iDOC error,iDOC,iDOC not working ,"Programs for restarting the failed idocs:
+Program RBDMANI2 for status 51 
+Program RBDAPP01 for status 64
+Program RBDAGAIE for status 32 and 69(Edited IDocs)
+Program RBDSYNER for status 26
+Program RSEOUT00 for status 30"
+INC00030,21-05-2014 20:15,Closed,Medium,,iDOC error,ECC,iDOC error,iDOC,Error_IDOC Stuck system performace issue,"Programs for restarting the failed idocs:
+Program RBDMANI2 for status 51 
+Program RBDAPP01 for status 64
+Program RBDAGAIE for status 32 and 69(Edited IDocs)
+Program RBDSYNER for status 26
+Program RSEOUT00 for status 30"
+INC00031,10-02-2014 22:15,Closed,Medium,,iDOC error,ECC,iDOC error,iDOC,Outbound WHMS related Idoc failure.,"Programs for restarting the failed idocs:
+Program RBDMANI2 for status 51 
+Program RBDAPP01 for status 64
+Program RBDAGAIE for status 32 and 69(Edited IDocs)
+Program RBDSYNER for status 26
+Program RSEOUT00 for status 30"
+INC00032,18-05-2014 23:15,Closed,Medium,,iDOC error,ECC,iDOC error,iDOC,BOM related idocs failed due to data issue,"Programs for restarting the failed idocs:
+Program RBDMANI2 for status 51 
+Program RBDAPP01 for status 64
+Program RBDAGAIE for status 32 and 69(Edited IDocs)
+Program RBDSYNER for status 26
+Program RSEOUT00 for status 30"
+INC00033,10-03-2014 22:15,Closed,Medium,,iDOC error,ECC,iDOC error,iDOC,Failed IDOC TPO Process,"Programs for restarting the failed idocs:
+Program RBDMANI2 for status 51 
+Program RBDAPP01 for status 64
+Program RBDAGAIE for status 32 and 69(Edited IDocs)
+Program RBDSYNER for status 26
+Program RSEOUT00 for status 30"
+INC00034,11-02-2014 23:15,Closed,Medium,,iDOC error,ECC,iDOC error,iDOC,"Idoc status ""not transferred yet""","Programs for restarting the failed idocs:
+Program RBDMANI2 for status 51 
+Program RBDAPP01 for status 64
+Program RBDAGAIE for status 32 and 69(Edited IDocs)
+Program RBDSYNER for status 26
+Program RSEOUT00 for status 30"
+INC00035,10-02-2014 22:15,Closed,Medium,,iDOC error,ECC,iDOC error,iDOC,iDOC processing issues,"Programs for restarting the failed idocs:
+Program RBDMANI2 for status 51 
+Program RBDAPP01 for status 64
+Program RBDAGAIE for status 32 and 69(Edited IDocs)
+Program RBDSYNER for status 26
+Program RSEOUT00 for status 30"
+INC00036,10-03-2014 22:15,Closed,Medium,,Issue with email,ECC,Emails are getting stuck in SOST.,Email,Emails are getting stuck in SOST due to some issue.,Check whether there is an emails are getting stuck in SOST and SCOT. Send out the notification. Run the automated fix if possible
+INC00037,11-02-2014 23:15,Closed,Medium,,Vendor payment block,ECC,Vendor payment block,Vendor,Not able to execute the vendor payment due to payment block in the vendor master,Execute BAPI_VENDOR_EDIT to remove the payment block.
+INC00038,18-05-2014 23:15,Closed,Medium,,The Posting period error,ECC,Posting period error,GR,The GR posting is getting faile due to MM posting period is not open.,Open the posting period
+INC00039,10-03-2014 22:15,Closed,Medium,,The Posting period error,ECC,Posting period error,FI document,FI document posting is getting failed due to posting period not open.,Open the posting period for the company code.
+INC00040,18-05-2014 23:15,Closed,High,Monitoring,System is down,ECC,System is down,"Down, not working",Unable to access ECC System using SAP GUI.,"Drive is full; removed some old backup and log files. Now, space is there. Restarted the HANA dB and ECC system."
+INC00041,11-02-2014 23:15,Closed,Low,End User,Missing Authorization,SAP Gateway,Authorization run and/or Activate Gateway Service is missing.,"SU53, Missing Authorization",Unable to Run and Activate Gateway Services; Authorizations are missing in SAP Gateway System.,Provided the Missing Authorization to user.
+INC00042,21-05-2014 20:15,Closed,Medium,,Time out,SAP Gateway,"Application is showing, Gateway time out error.","Time out, Error",SAP Gateway Time out Error is occurring in an UI5 oData based Application.,Changed the Gateway timeout Setting in RZ10 from 600 seconds to 2000 Seconds.
+INC00043,18-05-2014 23:15,Closed,Medium,,User Validity,SAP System,User ID is not Valid.,invalid User,"User's validity is expired hence user is getting error as ""User ID is not in Valid Status""",Extended the Validity.
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
